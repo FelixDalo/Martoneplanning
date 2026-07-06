@@ -1,0 +1,12 @@
+# Martone Planning Studio — Hostinger shared hosting
+
+# Block direct web access to the credentials file
+<Files "contact-config.php">
+    Order deny,allow
+    Deny from all
+</Files>
+
+# Force HTTPS (uncomment once the SSL certificate is active on Hostinger)
+# RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

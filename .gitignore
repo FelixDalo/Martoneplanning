@@ -1,0 +1,33 @@
+﻿# Dependencies & build
+node_modules/
+dist/
+
+# Secrets
+.env
+.env.local
+contact-config.php
+
+# TypeScript cache
+*.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp & tool internals
+.tmp/
+.claude/
+.agents/
+.vercel/
+skills-lock.json
+AGENTS.md
+context/
+Instructions/
+rqa.mjs
+
+# Old image folders (consolidated into assets/img/)
+assets/images/
+assets/images-regenerated/
+"assets/Client Logos/"
+"assets/Martone Logos/"
+assets/final-selected-images/

@@ -1,0 +1,21 @@
+import { initNavbar } from "./nav";
+import { initCsiSection } from "./csi-section";
+import { initProjectsFilter } from "./projects-filter";
+import { initProjectImageHover } from "./project-hover";
+import { initTestimonials } from "./testimonials";
+import { initAnimations } from "./animations";
+import { initMagneticButtons } from "./magnetic-buttons";
+import { initStatCounters } from "./stat-counters";
+import { initContactForm } from "./form";
+import { initGalleryTracks } from "./gallery-tracks";
+
+initNavbar();
+initCsiSection();
+initProjectsFilter();
+initProjectImageHover();
+initTestimonials();
+initAnimations();
+initMagneticButtons();
+initStatCounters();
+initContactForm();
+initGalleryTracks();

@@ -1,0 +1,27 @@
+<?php
+/**
+ * contact-config.php — Martone Planning Studio form credentials
+ *
+ * HOW TO USE:
+ * 1. Copy this file:  cp contact-config.php.example contact-config.php
+ * 2. Fill in the real values below.
+ * 3. Upload contact-config.php to your Hostinger public_html folder.
+ * 4. contact-config.php is in .gitignore — never commit it with real credentials.
+ *
+ * You need a Resend account (https://resend.com) with a verified sender domain.
+ */
+
+// Your Resend API key — create at https://resend.com/api-keys
+define('RESEND_API_KEY', 're_xxxxxxxxxxxxxxxxxxxxxxxxxx');
+
+// Martone's inbox — internal enquiry notifications are sent here
+define('CONTACT_TO_EMAIL', 'hello@martone.co.bw');
+
+// Verified sender for internal notifications (must be a Resend-verified domain/email)
+define('CONTACT_FROM_EMAIL', 'enquiries@martone.co.bw');
+
+// Verified sender for the client-facing autoresponder
+define('AUTORESPONDER_FROM_EMAIL', 'hello@martone.co.bw');
+
+// Seconds to wait before sending the autoresponder (default: 40)
+define('AUTORESPONDER_DELAY_SECONDS', 40);
