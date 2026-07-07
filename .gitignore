@@ -1,6 +1,5 @@
 ﻿# Dependencies & build
 node_modules/
-dist/
 
 # Secrets
 .env
@@ -14,7 +13,7 @@ contact-config.php
 .DS_Store
 Thumbs.db
 
-# Temp & tool internals
+# Tool internals
 .tmp/
 .claude/
 .agents/
@@ -25,9 +24,9 @@ context/
 Instructions/
 rqa.mjs
 
-# Old image folders (consolidated into assets/img/)
+# Old image folders (all moved into assets/img/)
 assets/images/
 assets/images-regenerated/
-"assets/Client Logos/"
-"assets/Martone Logos/"
+assets/Client Logos/
+assets/Martone Logos/
 assets/final-selected-images/
